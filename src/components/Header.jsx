@@ -20,7 +20,7 @@ export default function Header({ toggleMenu, isMenuOpen }) {
   return (
     <header
       id="header"
-      className="fixed top-0 w-screen h-20 z-50 flex justify-between items-center p-5 bg-transparent transition-all duration-[--duration-default] ease-in-out"
+      className="fixed top-0 w-[100%] h-20 z-50 flex justify-between items-center p-5 bg-transparent transition-all duration-[--duration-default] ease-in-out"
     >
       <div className="logo">
         <a className="no-underline text-[var(--color-bg)]" href="/">

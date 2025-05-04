@@ -1,6 +1,6 @@
 export default function Reservas() {
     return (
-        <section id="reservas" className="w-[100%] font-family-poppins pt-[65px] px-10 pb-20 bg-text text-center">
+        <section id="reservas" className="w-[100%] font-family-poppins pt-[65px] px-1 pb-20 bg-text text-center">
             <div className="max-w-[800px] mx-auto p-4">
                 <h2 className="font-family-poppins text-[35px] mb-[1.5rem] font-bold">Reserva tu estadía</h2>
                 <form action="https://formspree.io/f/xzzbazyv" method="POST">

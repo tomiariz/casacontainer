@@ -14,7 +14,7 @@ export default function Sidemenu({ isMenuOpen }) {
 
     return (
         <nav
-        className={`fixed top-0 right-0 w-[250px] h-screen backdrop-blur-xl transition-transform duration-300 ease-in-out z-[10] pt-20 ${
+        className={`fixed top-0 right-0 w-[250px] h-[100vh] backdrop-blur-xl transition-transform duration-300 ease-in-out z-[10] pt-20 ${
             isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
         id="menu-container"
