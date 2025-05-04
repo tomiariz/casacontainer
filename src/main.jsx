@@ -18,7 +18,7 @@ createRoot(document.getElementById('root')).render(
       playsInline 
       preload="auto"
     >
-      <source src='../public/vid/estepa-drone.mp4' type="video/mp4" />
+      <source src="/casacontainer/vid/estepa-drone.mp4" type="video/mp4" />
     </video>
     
     <Layout />
